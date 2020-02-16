@@ -39,14 +39,21 @@ recipeApp.getrecipes = function (ingredientInput) {
                     console.log(recipeId);
 
                     //Make ajax call with new end point with recipeID and go deep into how to make that recipe.
-                    
 
+                    $.ajax({
+                        url: `https://api.spoonacular.com/recipes/${recipeId}/information`,
+                        method: 'GET',
+                        dataType: 'json',
+                        data: {
+                            apiKey: recipeApp.key,
+                            id: `${recipeId}`
+                        }
+                    }).then(function (eachInfo) {
+                        console.log('Worked our ID',eachInfo);
+
+                    })
                 });
-
-
         }
-
-
     });
 }
 
