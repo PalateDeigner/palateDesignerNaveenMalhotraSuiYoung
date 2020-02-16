@@ -268,7 +268,7 @@ a {
 }
 
 .recipesResults h2 {
-  font-family: "Lora", serif;
+  font-family: "Kanit", sans-serif;
   font-size: calc(2.6rem + 0.5vw);
   margin: 5% 8%;
 }
@@ -291,7 +291,7 @@ a {
 }
 
 .recipesResults .suggestedRecipes li p {
-  font-family: "Lora", serif;
+  font-family: "Kanit", sans-serif;
   font-size: calc(1.6rem + 0.5vw);
   font-style: italic;
   text-align: center;

@@ -39,7 +39,7 @@ recipeApp.getrecipes = function (ingredientInput) {
                     console.log(recipeId);
 
                     //Make ajax call with new end point with recipeID and go deep into how to make that recipe.
-
+                    
 
                 });
 
