@@ -1,0 +1,29 @@
+@import "./setup";
+@import "./default";
+
+// Suggested Recipes Results section starts
+
+.recipesResults {
+  h2 {
+    font-family: "Lora", serif;
+    font-size: calc(2.6rem + 0.5vw);
+    margin: 5% 8%;
+  }
+  .suggestedRecipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    li {
+      width: calc(100% / 5);
+      border: 1px solid grey;
+      p {
+        font-family: "Lora", serif;
+        font-size: calc(1.6rem + 0.5vw);
+        font-style: italic;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// Suggested Recipes Results section ends
